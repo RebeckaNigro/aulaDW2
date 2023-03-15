@@ -7,5 +7,9 @@ window.onload = function(){
         
         element.innerText = "Professor " + element.innerText;
     }
+
+    if( confirm("Fechar?")){
+        this.close();
+    }
 }
 
