@@ -6,6 +6,8 @@ window.onload = function(){
         const element = itens[index];
         
         element.innerText = "Professor " + element.innerText;
+
+        element.onclick = function(){   };
     }
 
     if( confirm("Fechar?")){
